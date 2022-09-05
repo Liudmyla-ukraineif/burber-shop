@@ -1,0 +1,132 @@
+:root {
+  --primary-font: 'Open Sans', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  --primary-text-color: #303030;
+  --secondary-text-color: #ffffff;
+  --primary-title-color: rgba(157, 164, 189, 0.6);
+  --secondary-title-color: #9DA4BD;
+
+  --accent-color: #FF6C00;
+
+}
+
+
+body {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  letter-spacing: 0.1em;
+
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* header style*/
+/* todo change bgd */
+.header,
+.hero {
+  background-color: #585555;
+}
+.header-link {
+  color: var(--secondary-text-color);
+
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+
+  text-transform: uppercase;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.header-contact {
+  color: var(--secondary-text-color);
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+
+  text-decoration: none;
+}
+
+.header-btn {
+  color: var(--secondary-text-color);
+
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+
+  text-transform: uppercase;
+}
+
+/* hero style */
+.social-item-link {
+  color: var(--primary-text-color);
+
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.37;
+
+  letter-spacing: 0.2em;
+}
+
+.hero-pre-title {
+  color: var(--primary-title-color);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.37;
+  
+  text-transform: uppercase;
+}
+
+.hero-title {
+  color: var(--secondary-text-color);
+
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+
+  letter-spacing: 0.05em;
+}
+
+.hero-description {
+  color: var(--secondary-title-color);
+
+  font-size: 18px;
+  line-height: 1.67;
+
+  letter-spacing: 0.02em;
+}
+
+
+
+
+
+
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
